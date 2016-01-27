@@ -17,12 +17,16 @@
 	color: #000;
 	font-family: "Rock Salt";
 }
+.navSection:hover{
+	background-color: #fff;
+}
 .navOption{
 	color: #383838;
 	cursor: pointer;
 	margin-right: 20px;
 	margin-left: 20px;
 	height: 70px;
+	background-color: #fff;
 }
 .navOption:hover{
 	color: #000;
@@ -31,5 +35,46 @@
 	margin-right: 20px;
 	margin-left: 20px;
 	height: 70px;
+	background-color: #fff;
+}
 
+/*LANDING SECTION*/
+.landingSection{
+	height: 800px;
+	background-image: url("/public/images/computer1.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 120px;
+}
+#landingCol{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.slogan{
+	font-size: 60px;
+	color: #262626;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.subSlogan{
+	font-size: 35px;
+	color: #000;
+	font-weight: lighter;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.quoteBtnSection{
+	margin-top: 20px;
+}
+.quoteBtn{
+	height: 70px;
+	width: 20%;
+	padding-top: 15px;
+	background-color: #3e9ef4;
+}
+.quoteBtn:hover{
+	height: 70px;
+	width: 20%;
+	padding-top: 15px;
+	background-color: #86c2f8;
 }
