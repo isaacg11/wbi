@@ -1,0 +1,10 @@
+{
+  "appId": "wbisaac",
+  "apiKey": "f7d916607d715d2ceb443b8176e93efd2ccb476f6045dc387a6aaf2ffb3f1d0e",
+  "public": "./",
+  "ignore": [
+    "stamplay.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
