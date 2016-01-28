@@ -6,13 +6,13 @@
 	padding-top: 10px;
 }
 #laptopIcon{
-	font-size: 40px;
+	font-size: 30px;
 	color: #383838;
 	margin-left: 30px;
 }
 .companyName{
 	margin-left: 10px;
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: bold;
 	color: #000;
 	font-family: "Rock Salt";
@@ -23,8 +23,7 @@
 .navOption{
 	color: #383838;
 	cursor: pointer;
-	margin-right: 20px;
-	margin-left: 20px;
+	margin-right: 50px;
 	height: 70px;
 	background-color: #fff;
 }
@@ -32,8 +31,7 @@
 	color: #000;
 	text-decoration: underline;
 	cursor: pointer;
-	margin-right: 20px;
-	margin-left: 20px;
+	margin-right: 50px;
 	height: 70px;
 	background-color: #fff;
 }
@@ -44,20 +42,21 @@
 	background-image: url("/public/images/computer1.gif");
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top: 120px;
+	padding-top: 140px;
 }
 #landingCol{
 	padding-left: 0px;
 	padding-right: 0px;
 }
 .slogan{
-	font-size: 60px;
+	font-size: 65px;
+	font-weight: lighter;
 	color: #262626;
 	margin-top:0px;
 	margin-bottom:0px;
 }
 .subSlogan{
-	font-size: 35px;
+	font-size: 25px;
 	color: #000;
 	font-weight: lighter;
 	margin-top:0px;
@@ -77,4 +76,24 @@
 	width: 20%;
 	padding-top: 15px;
 	background-color: #86c2f8;
+}
+
+/*VISION SECTION*/
+#visionSection{
+	padding-left: 0px;
+}
+.visionImg{
+	margin-top: 100px;
+}
+.header{
+	margin-top: 250px;
+	margin-bottom: 0px;
+	font-size: 60px;
+	font-weight: lighter;
+}
+.description{
+	margin-top: 0px;
+	font-size: 25px;
+	color: #000;
+	font-weight: lighter;
 }
