@@ -2,8 +2,6 @@
 /*NAVBAR*/
 .navbarTop{
 	background-color: #fff !important;
-	height: 80px;
-	padding-top: 10px;
 }
 #laptopIcon{
 	font-size: 30px;
@@ -13,9 +11,7 @@
 .companyName{
 	margin-left: 10px;
 	font-size: 30px;
-	font-weight: bold;
-	color: #000;
-	font-family: "Rock Salt";
+	color: #666666;
 }
 .navSection:hover{
 	background-color: #fff;
@@ -24,7 +20,7 @@
 	color: #383838;
 	cursor: pointer;
 	margin-right: 50px;
-	height: 70px;
+	/*height: 65px;*/
 	background-color: #fff;
 }
 .navOption:hover{
@@ -32,7 +28,7 @@
 	text-decoration: underline;
 	cursor: pointer;
 	margin-right: 50px;
-	height: 70px;
+	/*height: 65px;*/
 	background-color: #fff;
 }
 
@@ -79,21 +75,49 @@
 }
 
 /*VISION SECTION*/
-#visionSection{
+#section-Vision{
 	padding-left: 0px;
 }
-.visionImg{
+.img-Vision{
 	margin-top: 100px;
+	margin-bottom: 50px;
 }
-.header{
+.header-Vision{
 	margin-top: 250px;
 	margin-bottom: 0px;
-	font-size: 60px;
+	font-size: 50px;
 	font-weight: lighter;
+	color:  #333333;
 }
 .description{
 	margin-top: 0px;
-	font-size: 25px;
-	color: #000;
+	font-size: 23px;
 	font-weight: lighter;
+	color: #666666;
+}
+
+/*SERVICES SECTION*/
+.section-Services{
+	background-color: #EEEEEE;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.header-Services{
+	margin-top: 100px;
+	margin-bottom: 0px;
+	color: #333333;
+	font-size: 50px;
+	font-weight: lighter;
+}
+.subheader-Services{
+	margin-top: 0px;
+	margin-bottom: 60px;
+	font-size: 18px;
+	font-weight: lighter;
+	color: #666666;
+}
+.img-Middle-Services{
+	width: 100%;
+}
+.img-Right-Services{
 }

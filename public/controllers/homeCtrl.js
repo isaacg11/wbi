@@ -6,7 +6,9 @@
 
   function homeCtrl(homeFactory, $state, $http, $scope, $stamplay, $location, $anchorScroll, duParallax){
 
-    $scope.words = "Hello world";
+    jQuery(document).ready(function(){
+      jQuery('.slider').slider({full_width: true});
+    });
 
   	$scope.goToContact = function() {
       $location.hash('contact');
