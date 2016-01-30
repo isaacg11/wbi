@@ -99,8 +99,8 @@
 /*SERVICES SECTION*/
 .section-Services{
 	background-color: #EEEEEE;
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
 }
 .header-Services{
 	margin-top: 100px;
@@ -119,5 +119,21 @@
 .img-Middle-Services{
 	width: 100%;
 }
-.img-Right-Services{
+.Img-Section-Services{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.servicesBtn{
+	height: 70px;
+	width: 15%;
+	padding-top: 15px;
+	margin-top: 60px;
+	background-color: #3e9ef4;
+}
+.servicesBtn:hover{
+	height: 70px;
+	width: 15%;
+	padding-top: 15px;
+	margin-top: 60px;
+	background-color: #86c2f8;
 }
