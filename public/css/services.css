@@ -1,0 +1,28 @@
+.navOption-left-servicePg{
+	font-weight: lighter;
+	font-size: 25px;
+	color: #b3b3b3;
+	cursor: pointer;
+	background-color: #fff;
+	border-left: 1px solid #EEEEEE;
+	border-bottom: 3px solid #1ab3ff;
+}
+.img-Services{
+	margin-top: 100px;
+	width: 90%;
+}
+.header-Services{
+	margin-top: 150px;
+	margin-bottom: 0px;
+	font-size: 50px;
+	font-weight: lighter;
+	color:  #333333;
+	line-height: 1;
+}
+.section-servicesPg{
+	background-color: #EEEEEE;
+	margin-bottom: 0px;
+}
+.bottomRow{
+	margin-bottom: 0px;
+}

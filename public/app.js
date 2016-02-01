@@ -26,6 +26,10 @@ function Config($stateProvider, $urlRouterProvider) {
 		url: '/',
 		templateUrl: '/home.html',
 	});
+	$stateProvider.state('Services',{
+		url: '/services',
+		templateUrl: '/services.html',
+	});
 	$urlRouterProvider.otherwise('/');
 	}
 
