@@ -19,9 +19,12 @@
 	color:  #333333;
 	line-height: 1;
 }
-.section-servicesPg{
-	background-color: #EEEEEE;
-	margin-bottom: 0px;
+.section-Services-Landing{
+	height: 800px;
+	background-image: url("/public/images/servicesImg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 140px;
 }
 .bottomRow{
 	margin-bottom: 0px;
