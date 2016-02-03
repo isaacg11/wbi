@@ -75,6 +75,9 @@
 	background-color: #fff;
 }
 /*LANDING SECTION*/
+.section-Landing-Parent{
+	margin-bottom: 0px;
+}
 .landingSection{
 	height: 800px;
 	background-image: url("/public/images/computer1.gif");
@@ -117,29 +120,38 @@
 }
 
 /*VISION SECTION*/
+.section-Vision-Parent{
+	height: 800px;
+	margin-bottom: 0px;
+	background-color: #00A5C2;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
 #section-Vision{
 	padding-left: 0px;
 }
 .img-Vision{
-	margin-top: 100px;
-	margin-bottom: 50px;
+	margin-top: 200px;
 }
 .header{
-	margin-top: 250px;
+	margin-top: 350px;
 	margin-bottom: 0px;
 	font-size: 50px;
 	font-weight: lighter;
-	color:  #333333;
+	color:  #fff;
 	line-height: 1;
 }
 .description{
 	margin-top: 10px;
 	font-size: 23px;
 	font-weight: lighter;
-	color: #666666;
+	color: #fff;
 }
 
 /*SERVICES SECTION*/
+.section-Services-Parent{
+	margin-bottom: 0px;
+}
 .section-Services{
 	background-color: #EEEEEE;
 	padding-left: 0px !important;
@@ -182,6 +194,12 @@
 	background-color: #4dc4ff;
 }
 /*REVIEWS SECTION*/
+.section-Reviews-Parent{
+	margin-bottom: 0px;
+	background-color: #00A5C2;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
 .img-Right-Reviews{
 	width: 100%;
 	margin-top: 100px;
@@ -221,6 +239,9 @@
 	margin-bottom: 0px;
 }
 .section-Quote{
+	/*background-image: url("/public/images/servicesImg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;*/
 	background-color: #EEEEEE;
 	padding-left: 0px !important;
 	padding-right: 0px !important;
@@ -229,6 +250,11 @@
 	margin-top: 50px;
 	margin-bottom: 50px;
 	background-color: #fff;
+}
+.header-quoteForm{
+	font-size: 20px;
+	color: #666666;
+	font-weight: lighter;
 }
 .gray{
 	color: #EEEEEE;
