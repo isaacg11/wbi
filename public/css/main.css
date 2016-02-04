@@ -29,7 +29,7 @@
 	color: #000;
 	cursor: pointer;
 	background-color: #EEEEEE;
-	border-bottom: 3px solid #1ab3ff;
+	border-bottom: 3px solid #00B863;
 }
 .navOption-middle{
 	font-weight: lighter;
@@ -44,7 +44,7 @@
 	color: #000;
 	cursor: pointer;
 	background-color: #EEEEEE;
-	border-bottom: 3px solid #1ab3ff;
+	border-bottom: 3px solid #00B863;
 }
 .navOption-right{
 	font-weight: lighter;
@@ -58,7 +58,7 @@
 	color: #000;
 	cursor: pointer;
 	background-color: #EEEEEE;
-	border-bottom: 3px solid #1ab3ff;
+	border-bottom: 3px solid #00B863;
 }
 .navOption-about{
 	margin-right: 20px;
@@ -110,20 +110,21 @@
 	height: 70px;
 	width: 20%;
 	padding-top: 15px;
-	background-color: #1ab3ff;
+	background-color: #00B863;
+
 }
 .quoteBtn:hover{
 	height: 70px;
 	width: 20%;
 	padding-top: 15px;
-	background-color: #4dc4ff;
+	background-color: #00e67b;
 }
 
 /*VISION SECTION*/
 .section-Vision-Parent{
-	height: 800px;
+	height: 1000px;
 	margin-bottom: 0px;
-	background-color: #00A5C2;
+	background: linear-gradient(#00e67b , #EEEEEE);
 	padding-left: 0px !important;
 	padding-right: 0px !important;
 }
@@ -132,6 +133,7 @@
 }
 .img-Vision{
 	margin-top: 200px;
+	margin-left: 100px;
 }
 .header{
 	margin-top: 350px;
@@ -184,39 +186,43 @@
 	padding-top: 15px;
 	margin-top: 60px;
 	margin-bottom: 60px;
-	background-color: #1ab3ff;
+	background-color: #00B863;
 }
 .servicesBtn:hover{
 	height: 70px;
 	width: 15%;
 	padding-top: 15px;
 	margin-top: 60px;
-	background-color: #4dc4ff;
+	background-color: #00e67b;
 }
 /*REVIEWS SECTION*/
 .section-Reviews-Parent{
+	height: 900px;
 	margin-bottom: 0px;
-	background-color: #00A5C2;
+	background: linear-gradient(to top, #00e67b , #EEEEEE);
 	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.section-Reviews-Img{
 	padding-right: 0px !important;
 }
 .img-Right-Reviews{
 	width: 100%;
-	margin-top: 100px;
+	margin-top: 200px;
 }
 .reviewsBtn{
 	height: 70px;
 	width: 45%;
 	padding-top: 15px;
 	margin-bottom: 60px;
-	background-color: #1ab3ff;
+	background-color: #00B863;
 }
 .reviewsBtn:hover{
 	height: 70px;
 	width: 45%;
 	padding-top: 15px;
 	margin-bottom: 60px;
-	background-color: #4dc4ff;
+	background-color: #00e67b;
 }
 
 
@@ -224,7 +230,7 @@
 .header-Quote{
 	margin-top: 100px;
 	margin-bottom: 0px;
-	color: #333333;
+	color: #fff;
 	font-size: 50px;
 	font-weight: lighter;
 }
@@ -233,22 +239,20 @@
 	margin-bottom: 10px;
 	font-size: 18px;
 	font-weight: lighter;
-	color: #666666;
+	color: #fff;
 }
 .section-Quote-Parent{
 	margin-bottom: 0px;
 }
 .section-Quote{
-	/*background-image: url("/public/images/servicesImg.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;*/
-	background-color: #EEEEEE;
+	/*background-color: #EEEEEE;*/
+	background: linear-gradient(to bottom, #00e67b , #EEEEEE);
 	padding-left: 0px !important;
 	padding-right: 0px !important;
 }
 .form-quoteForm{
 	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 150px;
 	background-color: #fff;
 }
 .header-quoteForm{
@@ -273,14 +277,14 @@
 	height: 70px;
 	padding-top: 15px;
 	margin-bottom: 10px;
-	background-color: #1ab3ff;
+	background-color: #00B863;
 }
 .submitBtn:hover{
 	width: 100%;
 	height: 70px;
 	padding-top: 15px;
 	margin-bottom: 10px;
-	background-color: #4dc4ff;
+	background-color: #00e67b;
 }
 input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
     border-bottom: 1px solid #666666;
