@@ -260,8 +260,8 @@
 	color: #666666;
 	font-weight: lighter;
 }
-.gray{
-	color: #EEEEEE;
+.gr{
+	color: #00e67b;
 }
 .header-quoteForm-Message{
 	color: #a6a6a6;
@@ -300,20 +300,12 @@ input[type=text]:focus:not([readonly])+label, input[type=password]:focus:not([re
 	background-color: #F9F9F9;
 	color: #000;
 }
-.socialIcon-GooglePlus{
-	color: #e60000;
+.socialIcon{
+	color: #00B863;
 	cursor: pointer;
 }
-.socialIcon-Facebook{
-	color: #46629e;
-	cursor: pointer;
-}
-.socialIcon-Twitter{
-	color: #2c99c1;
-	cursor: pointer;
-}
-.socialIcon-LinkedIn{
-	color: #1985bc;
+.socialIcon:hover{
+	color: #00e67b;
 	cursor: pointer;
 }
 .header-Footer-socialLinks{
