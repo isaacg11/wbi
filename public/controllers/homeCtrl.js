@@ -7,7 +7,7 @@
   function homeCtrl(homeFactory, $state, $http, $scope, $stamplay, $location, $anchorScroll, duParallax){
 
     jQuery(document).ready(function(){
-      jQuery('.slider').slider({full_width: true});
+      jQuery('.materialboxed').materialbox();
     });
 
   	$scope.goToContact = function() {
