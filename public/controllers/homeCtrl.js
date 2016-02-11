@@ -10,6 +10,18 @@
       jQuery('.materialboxed').materialbox();
     });
 
+    jQuery(function(){
+        jQuery(".element").typed({
+            strings: ["Beautiful Websites.^2000", 
+                      "Mobile Apps.^2000",
+                      "Affordable Solutions.^2000",
+                      "Bring Ideas To Life.",
+                      ],
+            typeSpeed: 0,
+            loop: true
+        });
+    });
+
   	$scope.goToContact = function() {
       $location.hash('contact');
       $anchorScroll();
