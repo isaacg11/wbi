@@ -72,56 +72,14 @@
 	background-color: #fff;
 }
 /*LANDING SECTION*/
-.section-Landing-Parent{
-	margin-bottom: 0px;
-}
-.landingSection{
-	height: 800px;
-	background-image: url("/public/images/computer1.gif");
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-top: 140px;
-}
 #landingCol{
 	padding-left: 0px;
 	padding-right: 0px;
 }
-.slogan{
-	font-size: 65px;
-	font-weight: lighter;
-	color: #262626;
-	margin-top:0px;
-	margin-bottom:0px;
-}
-.subSlogan{
-	font-size: 25px;
-	color: #000;
-	font-weight: lighter;
-	margin-top:0px;
-	margin-bottom:0px;
-}
-.quoteBtnSection{
-	margin-top: 20px;
-}
-.quoteBtn{
-	height: 70px;
-	width: 20%;
-	padding-top: 15px;
-	background-color: #00B863;
-
-}
-.quoteBtn:hover{
-	height: 70px;
-	width: 20%;
-	padding-top: 15px;
-	background-color: #00e67b;
-}
-
-/*VISION SECTION*/
 .section-Vision-Parent{
 	height: 1000px;
 	margin-bottom: 0px;
-	background: linear-gradient(#00e67b , #EEEEEE);
+	background: linear-gradient(#80aaff, #00e67b);
 	padding-left: 0px !important;
 	padding-right: 0px !important;
 }
@@ -129,11 +87,14 @@
 	padding-left: 0px;
 }
 .img-Vision{
-	margin-top: 200px;
+	margin-top: 80px;
 	margin-left: 100px;
 }
+.video-landingSection{
+	margin-top: 110px;
+}
 .header{
-	margin-top: 350px;
+	margin-top: 10px;
 	margin-bottom: 0px;
 	font-size: 50px;
 	font-weight: lighter;
@@ -145,6 +106,19 @@
 	font-size: 23px;
 	font-weight: lighter;
 	color: #fff;
+}
+.quoteBtn{
+	opacity: 0.6;
+	height: 70px;
+	padding-top: 15px;
+	width: 50%;
+}
+.quoteBtn:hover{
+	height: 70px;
+	padding-top: 15px;
+	width: 50%;
+	background-color: #EEEEEE;
+	color: #000;
 }
 
 /*SERVICES SECTION*/
@@ -196,7 +170,7 @@
 .section-Reviews-Parent{
 	height: 900px;
 	margin-bottom: 0px;
-	background: linear-gradient(to top, #00e67b , #EEEEEE);
+	background: linear-gradient(to top, #80aaff, #00e67b);
 	padding-left: 0px !important;
 	padding-right: 0px !important;
 }
@@ -242,8 +216,7 @@
 	margin-bottom: 0px;
 }
 .section-Quote{
-	/*background-color: #EEEEEE;*/
-	background: linear-gradient(to bottom, #00e67b , #EEEEEE);
+	background-color: #EEEEEE;
 	padding-left: 0px !important;
 	padding-right: 0px !important;
 }
