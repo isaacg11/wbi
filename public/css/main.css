@@ -134,105 +134,88 @@
 }
 .quoteBtn{
 	background-color: #1CC526;
-	height: 70px;
+	height: 60px;
 	padding-top: 15px;
-	width: 50%;
+	width: 35%;
+	font-size: 18px;
 }
 .quoteBtn:hover{
 	background-color: #36e242;
-	height: 70px;
+	height: 60px;
 	padding-top: 15px;
-	width: 50%;
+	width: 35%;
+	font-size: 18px;
 }
 
 /*OPTIONS SECTION*/
 .section-Options-Parent{
+	margin-bottom: 0px;
 	background-color: #262d3a;
 	height: 300px;
 }
-
-
-/*SERVICES SECTION*/
-.section-Services-Parent{
-	margin-bottom: 0px;
-}
-.section-Services{
-	background-color: #EEEEEE;
-	padding-left: 0px !important;
-	padding-right: 0px !important;
-}
-.header-Services{
+.icon-optionsSection{
+	color: #158FEF;
 	margin-top: 100px;
-	margin-bottom: 0px;
-	color: #333333;
+	margin-left: 80px;
+}
+.iconRight-optionsSection{
+	color: #855EAE;
+	margin-top: 100px;
+	margin-left: 5px;
+}
+.iconLeft-optionsSection{
+	color: #855EAE;
+	margin-top: 100px;
+}
+.description-optionsSection{
+	margin-left: 10px;
+	color: #e6e6e6;
 	font-size: 50px;
 	font-weight: lighter;
 }
-.subheader-Services{
-	margin-top: 0px;
-	margin-bottom: 60px;
-	font-size: 18px;
+/*SERVICES SECTION*/
+.section-Services-Parent{
+	padding-bottom: 50px;
+	border-bottom: 2px solid #cccccc;
+}
+.header-servicesSection{
+	margin-top: 70px;
+	margin-bottom: 0px;
 	font-weight: lighter;
+	font-size: 50px;
+}
+.subheader-servicesSection{
+	margin-top: 0px;
 	color: #666666;
-}
-.img-Middle-Services{
-	width: 100%;
-}
-.Img-Section-Services{
-	padding-left: 0px !important;
-	padding-right: 0px !important;
+	font-size: 30px;
+	font-weight: lighter;
 }
 .servicesBtn{
-	height: 70px;
-	width: 15%;
+	margin-top: 10px;
+	background-color: #1CC526;
+	height: 60px;
 	padding-top: 15px;
-	margin-top: 60px;
-	margin-bottom: 60px;
-	background-color: #00B863;
+	width: 15%;
+	font-size: 18px;
 }
 .servicesBtn:hover{
-	height: 70px;
+	margin-top: 10px;
+	background-color: #36e242;
+	height: 60px;
+	padding-top: 15px;
 	width: 15%;
-	padding-top: 15px;
-	margin-top: 60px;
-	background-color: #00e67b;
+	font-size: 18px;
 }
+
 /*REVIEWS SECTION*/
-.section-Reviews-Parent{
-	height: 900px;
-	margin-bottom: 0px;
-	background: linear-gradient(to top, #80aaff, #00e67b);
-	padding-left: 0px !important;
-	padding-right: 0px !important;
+.img-Reviews{
+	margin-top: 40px;
+	border-radius: 50%;
+	border: 4px solid #EEEEEE;
 }
-.section-Reviews-Img{
-	padding-right: 0px !important;
-}
-.img-Right-Reviews{
-	width: 100%;
-	margin-top: 200px;
-}
-.reviewsBtn{
-	height: 70px;
-	width: 45%;
-	padding-top: 15px;
-	margin-bottom: 60px;
-	background-color: #00B863;
-}
-.reviewsBtn:hover{
-	height: 70px;
-	width: 45%;
-	padding-top: 15px;
-	margin-bottom: 60px;
-	background-color: #00e67b;
-}
-
-
 /*QUOTE SECTION*/
 .header-Quote{
-	margin-top: 100px;
 	margin-bottom: 0px;
-	color: #fff;
 	font-size: 50px;
 	font-weight: lighter;
 }
@@ -241,13 +224,12 @@
 	margin-bottom: 10px;
 	font-size: 18px;
 	font-weight: lighter;
-	color: #fff;
 }
 .section-Quote-Parent{
 	margin-bottom: 0px;
+	background-color: #EEEEEE;
 }
 .section-Quote{
-	background-color: #EEEEEE;
 	padding-left: 0px !important;
 	padding-right: 0px !important;
 }
