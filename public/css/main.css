@@ -101,9 +101,9 @@
 	padding-right: 0px;
 }
 .section-Vision-Parent{
-	height: 1000px;
+	/*height: 1000px;*/
 	margin-bottom: 0px;
-	background: linear-gradient(#80aaff, #00e67b);
+	background: linear-gradient(to bottom right, #824eca, #2e174f);
 	padding-left: 0px !important;
 	padding-right: 0px !important;
 }
@@ -111,11 +111,12 @@
 	padding-left: 0px;
 }
 .img-Vision{
-	margin-top: 80px;
+	margin-top: 40px;
+	margin-bottom: 30px;
 	margin-left: 100px;
 }
 .video-landingSection{
-	margin-top: 110px;
+	margin-top: 130px;
 }
 .header{
 	margin-top: 15px;
@@ -132,18 +133,24 @@
 	color: #fff;
 }
 .quoteBtn{
-	opacity: 0.6;
+	background-color: #1CC526;
 	height: 70px;
 	padding-top: 15px;
 	width: 50%;
 }
 .quoteBtn:hover{
+	background-color: #36e242;
 	height: 70px;
 	padding-top: 15px;
 	width: 50%;
-	background-color: #EEEEEE;
-	color: #000;
 }
+
+/*OPTIONS SECTION*/
+.section-Options-Parent{
+	background-color: #262d3a;
+	height: 300px;
+}
+
 
 /*SERVICES SECTION*/
 .section-Services-Parent{

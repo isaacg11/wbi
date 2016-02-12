@@ -12,13 +12,13 @@
 
     jQuery(function(){
         jQuery(".element").typed({
-            strings: ["Beautiful Websites.^2000", 
+            strings: ["Bring Ideas To Life.^2000", 
+                      "Custom Websites.^2000",
                       "Mobile Apps.^2000",
-                      "Affordable Solutions.^2000",
-                      "Bring Ideas To Life.",
+                      "Whatever You Need.",
                       ],
             typeSpeed: 0,
-            loop: true
+            loop: false
         });
     });
 
