@@ -208,10 +208,34 @@
 }
 
 /*REVIEWS SECTION*/
+.section-Reviews-Parent{
+	padding-bottom: 60px;
+}
 .img-Reviews{
 	margin-top: 40px;
+	margin-left: 30px;
 	border-radius: 50%;
 	border: 4px solid #EEEEEE;
+}
+.icon-Reviews-Top{
+	margin-top: 60px;
+	margin-right: 5px;
+	color: #158FEF;
+}
+.description-Reviews{
+	margin-top: 70px;
+	font-weight: lighter;
+	color: #666666;
+	font-size: 25px;
+}
+.name-Reviews{
+	font-size: 20px;
+	color: #158FEF;
+	margin-bottom: 0px;
+}
+.title-Reviews{
+	margin-top: 0px;
+	font-size: 13px;
 }
 /*QUOTE SECTION*/
 .header-Quote{
