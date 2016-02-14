@@ -289,42 +289,39 @@
 
 #footer-Bottom{
 	margin-top: 0px;
-	background-color: #F9F9F9;
+	padding-top: 50px;
+	background-color: #262d3a;
 	color: #000;
 }
-.socialIcon{
-	color: #00B863;
-	cursor: pointer;
-}
-.socialIcon:hover{
-	color: #00e67b;
-	cursor: pointer;
-}
-.header-Footer-socialLinks{
-	font-size: 25px;
-	font-weight: lighter;
-	margin-left: 30px;
-	margin-top: 0px;
-	color: #a6a6a6;
-}
-.footer-middleSection{
-	border-top: 2px solid #EEEEEE;
-}
 .header-Footer-navOptions{
-	color: #666666;
+	color: #fff;
 	font-weight: bold;
+	font-size: 20px;
 }
 .header-Footer-navOptions-left{
-	color: #666666;
+	color: #f2f2f2;
 	font-weight: bold;
-	margin-left: 30px;
+	font-size: 20px;
 }
 .list-Footer-navOptions-left{
-	color: #666666;
 	margin-left: 30px;
 }
-.contactInfo-Footer{
-	color: #8c8c8c;
+.navoption-Footer{
+	color: #EEEEEE;
+	font-size: 20px;
+}
+.navoption-social-Footer{
+	color: #EEEEEE;
+	font-size: 20px;
+	cursor: pointer;
+}
+.navoption-social-Footer:hover{
+	color: #158FEF;
+	font-size: 20px;
+	cursor: pointer;
+}
+.footer-copyright{
+	border-top: 1px solid #323c4d;
 }
 .copyright{
 	color: #a6a6a6;
