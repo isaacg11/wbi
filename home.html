@@ -1,4 +1,4 @@
-<div ng-controller="homeCtrl">
+<div id="scrollArea" ng-controller="homeCtrl">
 <!--NAVBAR-->
 	<div class="navbar-fixed">
     	<nav class="navbarTop">
@@ -17,7 +17,9 @@
           			<li class="navSection"><a class="navOption-right">About</a></li>
         		</ul>
         		<ul class="right hide-on-med-and-down">
-          			<li class="navSection"><a class="navOption-about">Get A Quote!</a></li>
+          			<li class="navSection">
+                  <a ng-click="goToQuote()" class="navOption-about">Get a quote!</a>
+                </li>
         		</ul>
       		</div>
     	</nav>
@@ -25,7 +27,7 @@
 <!--LANDING SECTION-->
 	<div class="row section-Vision-Parent">
 		<div id="section-Vision" class="col s6 center">
-			<img src="public/images/cellphone.png" class="img-Vision"/>
+			<img src="public/images/cellphone.png" class="img-Vision animated slideInDown"/>
 		</div>
 		<div class="col s5">
       <iframe class="video-landingSection" width="325" height="225"
@@ -89,6 +91,7 @@
     </div>
   </div>
 <!--QUOTE SECTION-->
+  <span id="quote"></span>
 	<div class="row section-Quote-Parent center">
 		<div class="col s12 section-Quote">
       <p class="header-Quote">Let's Get In Touch and Talk About Your Project</p>
@@ -113,7 +116,7 @@
 	<footer id="footer-Bottom"class="page-footer">
     <div class="col s12"></div>
         <div class="row">
-          <div class="col s1">.</div>
+          <div class="col s1 blend-Footer">.</div>
         	<div class="col s3">
         		<p class="header-Footer-navOptions-left">Areas of Service</p>
         		<ul class="list-Footer-navOptions-Left">

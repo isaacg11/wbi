@@ -101,7 +101,6 @@
 	padding-right: 0px;
 }
 .section-Vision-Parent{
-	/*height: 1000px;*/
 	margin-bottom: 0px;
 	background: linear-gradient(to bottom right, #824eca, #2e174f);
 	padding-left: 0px !important;
@@ -325,4 +324,7 @@
 }
 .copyright{
 	color: #a6a6a6;
+}
+.blend-Footer{
+	color: #262d3a;
 }

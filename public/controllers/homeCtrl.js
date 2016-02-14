@@ -10,6 +10,7 @@
       jQuery('.materialboxed').materialbox();
     });
 
+  //TYPED.JS
     jQuery(function(){
         jQuery(".element").typed({
             strings: ["Bring Ideas To Life.^2000", 
@@ -22,22 +23,17 @@
         });
     });
 
-  	$scope.goToContact = function() {
-      $location.hash('contact');
+  //PAGE SCROLL
+  	$scope.goToQuote = function() {
+      $location.hash('quote');
       $anchorScroll();
   	};
+
+    var options = [
+      {selector: '.img-Reviews', offset: 0, callback: 'Materialize.fadeInImage(".img-Reviews")'}
+    ];
+    Materialize.scrollFire(options);
   	
-      
-  	$scope.goToServices = function(){
-  		$location.hash('services');
-      	$anchorScroll();
-  	};
-
-  	$scope.goToReviews = function(){
-  		$location.hash('reviews');
-      	$anchorScroll();
-  	};
-
   //CLOSING BRACKETS
   }
   })();  
