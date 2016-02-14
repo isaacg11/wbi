@@ -8,16 +8,20 @@
         				<i id="laptopIcon" class="fa fa-laptop large laptopIcon"></i>
         			</li>
         			<li class="navSection">
-        				<span class="companyName">Websites by Isaac</span>
+        				<span ui-sref="Home" class="companyName">Websites by Isaac</span>
         			</li>
         			<li class="navSection">
         				<a class="navOption-left-servicePg" ui-sref="Services">Services</a>
         			</li>
-          			<li class="navSection"><a class="navOption-middle">Portfolio</a></li>
+          			<li class="navSection">
+                        <a ui-sref="Portfolio" class="navOption-middle">Portfolio</a>
+                    </li>
           			<li class="navSection"><a class="navOption-right">About</a></li>
         		</ul>
         		<ul class="right hide-on-med-and-down">
-          			<li class="navSection"><a class="navOption-about">Get a quote!</a></li>
+          			<li class="navSection">
+                        <a class="navOption-about" ng-click="goToQuote()">Get a quote!</a>
+                    </li>
         		</ul>
       		</div>
     	</nav>
@@ -35,9 +39,10 @@
     </div>
 <!--ECOMMERCE SECTION-->
     <div class="row section-Services-ServicesPg">
-        <div class="col s3 blend-services">.</div>
+        <div class="col s3 blend-services">.
+        </div>
         <div class="col s6 center">
-            <p class="header-Services-ServicesPg">eCommerce</p>
+            <p class="header-Services-ServicesPg"><i class="fa fa-shopping-cart icon-Services-C"></i> eCommerce</p>
             <p class="description-Services-ServicesPg">
                 Sell your products with an online shop. Promote special deals, process credit card transactions, and much more!
             </p>
@@ -48,7 +53,7 @@
     <div class="row section-Services-ServicesPg">
         <div class="col s3 blend-services">.</div>
         <div class="col s6 center">
-            <p class="header-Services-ServicesPg">Sales/Marketing</p>
+            <p class="header-Services-ServicesPg"><i class="fa fa-bullhorn icon-Services-A"></i> Sales/Marketing</p>
             <p class="description-Services-ServicesPg">
                 Grow your professional network with a custom website that is sure to capture more leads, clients, and closes.
             </p>
@@ -59,7 +64,7 @@
     <div class="row section-Services-ServicesPg">
         <div class="col s3 blend-services">.</div>
         <div class="col s6 center">
-            <p class="header-Services-ServicesPg">Independent Contracting</p>
+            <p class="header-Services-ServicesPg"><i class="fa fa-wrench icon-Services-A"></i> Independent Contracting</p>
             <p class="description-Services-ServicesPg">
                 Promote your business services online to both local & global prospects, landing you more bids and contracts.
             </p>
@@ -70,7 +75,7 @@
     <div class="row section-Services-ServicesPg">
         <div class="col s3 blend-services">.</div>
         <div class="col s6 center">
-            <p class="header-Services-ServicesPg">Social Media</p>
+            <p class="header-Services-ServicesPg"><i class="fa fa-users icon-Services-A"></i> Social Media</p>
             <p class="description-Services-ServicesPg">
                 Start the next big social media app! Establish an online community where users can share content and message.
             </p>
@@ -81,7 +86,7 @@
     <div class="row section-Services-ServicesPg">
         <div class="col s3 blend-services">.</div>
         <div class="col s6 center">
-            <p class="header-Services-ServicesPg">Educational</p>
+            <p class="header-Services-ServicesPg"><i class="fa fa-graduation-cap icon-Services-B"></i> Educational</p>
             <p class="description-Services-ServicesPg">
                 Tutor students? Create a place for clients to read lessons, take tests, and other learning activities.
             </p>
@@ -92,7 +97,7 @@
     <div class="row section-resume-Services-ServicesPg">
         <div class="col s3 blend-services">.</div>
         <div class="col s6 center">
-            <p class="header-Services-ServicesPg">Resume</p>
+            <p class="header-Services-ServicesPg"><i class="fa fa-file-word-o icon-Services-C"></i> Resume</p>
             <p class="description-Services-ServicesPg">
                 Give potential employers a beautiful website to visit and view your work history, education, and skills.
             </p>

@@ -1,0 +1,39 @@
+<div ng-controller="homeCtrl">
+<!--NAVBAR-->
+	<div class="navbar-fixed">
+    	<nav class="navbarTop">
+      		<div class="nav-wrapper">
+        		<ul class="left">
+        			<li class="navSection">
+        				<i id="laptopIcon" class="fa fa-laptop large laptopIcon"></i>
+        			</li>
+        			<li class="navSection">
+        				<span ui-sref="Home" class="companyName">Websites by Isaac</span>
+        			</li>
+        			<li class="navSection">
+        				<a class="navOption-left" ui-sref="Services">Services</a>
+        			</li>
+          			<li class="navSection">
+                        <a ui-sref="Portfolio" class="navOption-middle-portPg">Portfolio</a>
+                    </li>
+          			<li class="navSection"><a class="navOption-right">About</a></li>
+        		</ul>
+        		<ul class="right hide-on-med-and-down">
+          			<li class="navSection">
+                        <a class="navOption-about" ng-click="goToQuote()">Get a quote!</a>
+                    </li>
+        		</ul>
+      		</div>
+    	</nav>
+  	</div>
+<!--LANDING SECTION-->
+	<div class="row marginNone">
+        <div class="col s12 section-parent-Landing-ServicesPg">
+            <div class="section-Landing-ServicesPg center">
+                <p class="header-Landing-ServicesPg"><u>Portfolio</u></p>
+            </div>
+        </div>
+    </div>
+
+<!--CLOSING DIV-->
+</div>

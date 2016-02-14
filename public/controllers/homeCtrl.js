@@ -6,6 +6,8 @@
 
   function homeCtrl(homeFactory, $state, $http, $scope, $stamplay, $location, $anchorScroll, duParallax){
 
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+
     jQuery(document).ready(function(){
       jQuery('.materialboxed').materialbox();
     });
@@ -28,6 +30,7 @@
       $location.hash('quote');
       $anchorScroll();
   	};
+
 
     var options = [
       {selector: '.img-Reviews', offset: 0, callback: 'Materialize.fadeInImage(".img-Reviews")'}
