@@ -10,4 +10,18 @@
 	border-right: 1px solid #EEEEEE;
 }
 
-/*LANDING*/
+/*PORTFOLIO SECTION*/
+.header-Portfolio-ServicesPg{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-size: 40px;
+	font-weight: lighter;
+	color: #666666;
+}
+.header-Portfolio-ServicesPg:hover{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-size: 40px;
+	font-weight: lighter;
+	color: #158FEF;
+}
