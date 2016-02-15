@@ -1,0 +1,26 @@
+
+/*NAVBAR*/
+.navOption-right-aboutPg{
+	padding-left: 30px;
+	padding-right: 30px;
+	font-weight: lighter;
+	font-size: 25px;
+	color: #b3b3b3;
+	cursor: pointer;
+	background-color: #EEEEEE;
+	border-left: 1px solid #EEEEEE;
+	border-right: 1px solid #EEEEEE;
+}
+
+/*ABOUT*/
+.img-About{
+	margin-top: 100px;
+	border-radius: 50%;
+	border: 5px solid #EEEEEE;
+}
+.description-About{
+	margin-top: 100px;
+	font-weight: lighter;
+	color: #666666;
+	font-size: 25px;
+}

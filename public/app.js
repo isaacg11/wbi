@@ -34,6 +34,10 @@ function Config($stateProvider, $urlRouterProvider) {
 		url: '/portfolio',
 		templateUrl: '/portfolio.html',
 	});
+	$stateProvider.state('About',{
+		url: '/about',
+		templateUrl: '/about.html',
+	});
 	$urlRouterProvider.otherwise('/');
 	}
 
