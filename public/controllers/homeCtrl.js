@@ -1,3 +1,5 @@
+ Stamplay.init('rocketbit');
+
  (function() {
   'use strict';
   angular.module('stamplay')
@@ -6,6 +8,9 @@
 
   function homeCtrl(homeFactory, $state, $http, $scope, $stamplay, $location, $anchorScroll, duParallax){
 
+    jQuery(".button-collapse").sideNav();
+
+  //ON STATE CHANGE, SCROLL TO TOP
     document.body.scrollTop = document.documentElement.scrollTop = 0;
 
     jQuery(document).ready(function(){
@@ -31,12 +36,30 @@
       $anchorScroll();
   	};
 
-
+  //FADE IN IMAGES
     var options = [
       {selector: '.img-Reviews', offset: 0, callback: 'Materialize.fadeInImage(".img-Reviews")'}
     ];
     Materialize.scrollFire(options);
-  	
+  
+  //SIGNUP
+    $scope.contact = function(){
+
+      var contactInfo = {
+        name: $scope.name,
+        phone: $scope.phone, 
+        email: $scope.email
+      };
+
+      $scope.name = "";
+      $scope.phone = "";
+      $scope.email = "";
+
+      Stamplay.Object('signup').save(contactInfo).then(function(){
+        Materialize.toast('Success!', 3000);
+      });
+    };
+
   //CLOSING BRACKETS
   }
   })();  

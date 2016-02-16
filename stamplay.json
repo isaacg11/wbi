@@ -1,6 +1,6 @@
 {
-  "appId": "wbisaac",
-  "apiKey": "f7d916607d715d2ceb443b8176e93efd2ccb476f6045dc387a6aaf2ffb3f1d0e",
+  "appId": "rocketbit",
+  "apiKey": "68d9cd761db16fbc40620c414aa83ac4b0f72ad177ead3a2bbb1043d11dd6f26",
   "public": "./",
   "ignore": [
     "stamplay.json",

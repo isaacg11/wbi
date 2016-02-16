@@ -1,33 +1,35 @@
 <div ng-controller="homeCtrl">
 <!--NAVBAR-->
-	<div class="navbar-fixed">
-    	<nav class="navbarTop">
-      		<div class="nav-wrapper">
-        		<ul class="left">
-        			<li class="navSection">
-        				<i id="rocketIcon" class="fa fa-rocket large"></i>
-        			</li>
-        			<li class="navSection">
-        				<a ui-sref="Home" class="companyName">LaunchNow</a>
-        			</li>
-        			<li class="navSection">
-        				<a class="navOption-left-servicePg" ui-sref="Services">Services</a>
-        			</li>
-          			<li class="navSection">
-                        <a ui-sref="Portfolio" class="navOption-middle">Portfolio</a>
-                    </li>
-          			<li class="navSection">
-                        <a ui-sref="About" class="navOption-right">About</a>
-                    </li>
-        		</ul>
-        		<ul class="right hide-on-med-and-down">
-          			<li class="navSection">
-                        <a class="navOption-about" ng-click="goToQuote()">Get a quote!</a>
-                    </li>
-        		</ul>
-      		</div>
-    	</nav>
-  	</div>
+<div class="navbar-fixed">
+  <nav class="section-Navbar">
+    <div class="nav-wrapper">
+      <a class="brand-logo"> RocketBit</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse">
+        <i class="fa fa-align-justify icon-Navbar"></i>
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li class="section-navoption-Navbar">
+          <a ui-sref="Services">Services</a>
+        </li>
+        <li class="section-navoption-Navbar">
+          <a ui-sref="Portfolio">Portfolio</a>
+        </li>
+        <li class="section-navoption-Navbar">
+          <a ui-sref="About">About</a>
+        </li>
+        <li class="section-navoption-Navbar">
+          <a ng-click="goToQuote()">Contact</a>
+        </li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a ui-sref="Services">Services</a></li>
+        <li><a ui-sref="Portfolio">Portfolio</a></li>
+        <li><a ui-sref="About">About</a></li>
+        <li><a ng-click="goToQuote()">Quote</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
 <!--LANDING SECTION-->
     <div class="row marginNone">
         <div class="col s12 section-parent-Landing-ServicesPg">
@@ -191,7 +193,7 @@
                 <ul>
                     <li>
                         <p class="navoption-Footer">Isaac Grey, <em>Owner</em></p>
-                        <p class="navoption-Footer">isaac@launchnow.com</p>
+                        <p class="navoption-Footer">isaac@rocketbit.com</p>
                         <p class="navoption-Footer">+1 (415) 996-7992</p>
                         <p class="navoption-Footer">Mon - Sat | 8:00am - 6:00pm (PST)</p>
                     </li>
