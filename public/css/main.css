@@ -1,10 +1,14 @@
 
+/*GLOBALS*/
+
 /*NAVBAR*/
+
 .section-Navbar{
 	background-color: #3a1d62;
+	max-width: 100vw !important;
 }
 .brand-logo{
-	margin-left: 30px;
+	margin-left: 20px;
 }
 .section-navoption-Navbar:hover{
 	background-color: #3a1d62;
@@ -59,7 +63,9 @@
 	margin-left: 100px;
 }
 .video-landingSection{
-	margin-top: 190px;
+	margin-top: 100px;
+	height: 250px !important;
+	width: 350px !important;
 }
 .header{
 	margin-top: 15px;
@@ -69,9 +75,19 @@
 	color:  #fff;
 	line-height: 1;
 }
+@media only screen and (max-width: 800px) {
+	.header {
+        margin-top: 15px;
+		margin-bottom: 0px;
+		font-size: 30px;
+		font-weight: bold;
+		color:  #fff;
+		line-height: 1;
+    }
+}
 .description{
 	margin-top: 10px;
-	font-size: 23px;
+	font-size: 25px;
 	font-weight: lighter;
 	color: #fff;
 }
@@ -96,25 +112,81 @@
 	background-color: #262d3a;
 	height: 300px;
 }
+@media only screen and (min-width: 600px) {
+	.icon-optionsSection {
+        margin-bottom: 0px;
+		background-color: #262d3a;
+    }
+}
 .icon-optionsSection{
+	font-size: 100px !important;
 	color: #158FEF;
 	margin-top: 100px;
 	margin-left: 80px;
 }
+@media only screen and (max-width: 800px) {
+	.icon-optionsSection {
+		font-size: 66px !important;
+        color: #158FEF;
+		margin-top: 100px;
+		margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 400px) {
+	.icon-optionsSection {
+		font-size: 33px !important;
+        color: #158FEF;
+		margin-top: 100px;
+		margin-left: 10px;
+    }
+}
 .iconRight-optionsSection{
+	font-size: 100px !important;
 	color: #855EAE;
 	margin-top: 100px;
 	margin-left: 5px;
 }
+@media only screen and (max-width: 800px) {
+	.iconRight-optionsSection {
+		font-size: 66px !important;
+        color: #855EAE;
+		margin-top: 100px;
+		margin-left: 5px;
+    }
+}
 .iconLeft-optionsSection{
+	font-size: 100px !important;
 	color: #855EAE;
 	margin-top: 100px;
+}
+@media only screen and (max-width: 800px) {
+	.iconLeft-optionsSection {
+		font-size: 66px !important;
+	    color: #855EAE;
+		margin-top: 100px;
+    }
 }
 .description-optionsSection{
 	margin-left: 10px;
 	color: #e6e6e6;
 	font-size: 50px;
 	font-weight: lighter;
+}
+@media only screen and (max-width: 800px) {
+	.description-optionsSection {
+        margin-left: 10px;
+		color: #e6e6e6;
+		font-size: 30px;
+		font-weight: lighter;
+    }
+}
+@media only screen and (max-width: 400px) {
+	.description-optionsSection {
+        margin-left: 10px;
+		color: #e6e6e6;
+		font-size: 10px;
+		font-weight: lighter;
+    }
 }
 /*SERVICES SECTION*/
 .section-Services-Parent{
@@ -127,11 +199,35 @@
 	font-weight: lighter;
 	font-size: 50px;
 }
+@media only screen and (max-width: 800px) {
+	.header-servicesSection {
+        margin-top: 30px;
+		margin-bottom: 0px;
+		font-weight: lighter;
+		font-size: 30px;
+    }
+}
+@media only screen and (max-width: 400px) {
+	.header-servicesSection {
+        margin-top: 30px;
+		margin-bottom: 0px;
+		font-weight: lighter;
+		font-size: 30px;
+    }
+}
 .subheader-servicesSection{
 	margin-top: 0px;
 	color: #666666;
 	font-size: 30px;
 	font-weight: lighter;
+}
+@media only screen and (max-width: 800px) {
+	.subheader-servicesSection {
+        margin-top: 10px;
+		margin-bottom: 0px;
+		font-weight: lighter;
+		font-size: 25px;
+    }
 }
 .servicesBtn{
 	margin-top: 10px;

@@ -23,7 +23,7 @@
             strings: ["Bring Ideas To Life.^2000", 
                       "Custom Websites.^2000",
                       "Mobile Apps.^2000",
-                      "Whatever You Need.",
+                      "Launch Within Days.",
                       ],
             typeSpeed: 0,
             loop: false
