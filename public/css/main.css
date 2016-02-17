@@ -79,6 +79,16 @@
 	.header {
         margin-top: 15px;
 		margin-bottom: 0px;
+		font-size: 50px;
+		font-weight: bold;
+		color:  #fff;
+		line-height: 1;
+    }
+}
+@media only screen and (max-width: 400px) {
+	.header {
+        margin-top: 15px;
+		margin-bottom: 0px;
 		font-size: 30px;
 		font-weight: bold;
 		color:  #fff;
@@ -90,6 +100,22 @@
 	font-size: 25px;
 	font-weight: lighter;
 	color: #fff;
+}
+@media only screen and (max-width: 800px) {
+	.description {
+        margin-top: 10px;
+		font-size: 35px;
+		font-weight: lighter;
+		color: #fff;
+    }
+}
+@media only screen and (max-width: 400px) {
+	.description {
+        margin-top: 10px;
+		font-size: 25px;
+		font-weight: lighter;
+		color: #fff;
+    }
 }
 .quoteBtn{
 	background-color: #1CC526;
@@ -190,6 +216,7 @@
 }
 /*SERVICES SECTION*/
 .section-Services-Parent{
+	margin-bottom: 0px;
 	padding-bottom: 50px;
 	border-bottom: 2px solid #cccccc;
 }
@@ -204,7 +231,7 @@
         margin-top: 30px;
 		margin-bottom: 0px;
 		font-weight: lighter;
-		font-size: 30px;
+		font-size: 40px;
     }
 }
 @media only screen and (max-width: 400px) {
@@ -226,7 +253,15 @@
         margin-top: 10px;
 		margin-bottom: 0px;
 		font-weight: lighter;
-		font-size: 25px;
+		font-size: 30px;
+    }
+}
+@media only screen and (max-width: 400px) {
+	.subheader-servicesSection {
+        margin-top: 10px;
+		margin-bottom: 0px;
+		font-weight: lighter;
+		font-size: 20px;
     }
 }
 .servicesBtn{
@@ -237,6 +272,26 @@
 	width: 15%;
 	font-size: 18px;
 }
+@media only screen and (max-width: 800px) {
+	.servicesBtn {
+        margin-top: 10px;
+		background-color: #1CC526;
+		height: 60px;
+		padding-top: 15px;
+		width: 30%;
+		font-size: 20px;
+    }
+}
+@media only screen and (max-width: 400px) {
+	.servicesBtn {
+        margin-top: 10px;
+		background-color: #1CC526;
+		height: 60px;
+		padding-top: 15px;
+		width: 65%;
+		font-size: 18px;
+    }
+}
 .servicesBtn:hover{
 	margin-top: 10px;
 	background-color: #36e242;
@@ -245,7 +300,26 @@
 	width: 15%;
 	font-size: 18px;
 }
-
+@media only screen and (max-width: 800px) {
+	.servicesBtn:hover {
+        margin-top: 10px;
+		background-color: #36e242;
+		height: 60px;
+		padding-top: 15px;
+		width: 30%;
+		font-size: 18px;
+    }
+}
+@media only screen and (max-width: 400px) {
+	.servicesBtn:hover {
+        margin-top: 10px;
+		background-color: #36e242;
+		height: 60px;
+		padding-top: 15px;
+		width: 65%;
+		font-size: 18px;
+    }
+}
 /*REVIEWS SECTION*/
 .section-Reviews-Parent{
 	padding-bottom: 60px;
@@ -255,6 +329,13 @@
 	margin-left: 30px;
 	border-radius: 50%;
 	border: 4px solid #EEEEEE;
+}
+@media only screen and (max-width: 800px) {
+	.img-Reviews {
+        margin-top: 40px;
+		margin-left: 30px;
+		border-radius: 50%;
+    }
 }
 .icon-Reviews-Top{
 	margin-top: 60px;
@@ -266,6 +347,14 @@
 	font-weight: lighter;
 	color: #666666;
 	font-size: 25px;
+}
+@media only screen and (max-width: 800px) {
+	.description-Reviews {
+        margin-top: 70px;
+		font-weight: lighter;
+		color: #666666;
+		font-size: 20px;
+    }
 }
 .name-Reviews{
 	font-size: 20px;
@@ -283,6 +372,14 @@
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+@media only screen and (max-width: 800px) {
+	.section-Quote-Parent {
+        margin-bottom: 0px;
+		background-color: #EEEEEE;
+		padding-top: 0px;
+		padding-bottom: 50px;
+    }
+}
 .section-Quote{
 	padding-left: 0px !important;
 	padding-right: 0px !important;
@@ -292,10 +389,31 @@
 	font-weight: lighter;
 	font-size: 40px;
 }
+@media only screen and (max-width: 800px) {
+	.header-Quote {
+        margin-bottom: 0px;
+		font-weight: lighter;
+		font-size: 40px;
+    }
+}
+@media only screen and (max-width: 400px) {
+	.header-Quote {
+        margin-bottom: 0px;
+		font-weight: lighter;
+		font-size: 30px;
+    }
+}
 .subheader-Quote{
 	margin-top: 0px;
 	font-weight: lighter;
 	font-size: 20px;
+}
+@media only screen and (max-width: 800px) {
+	.subheader-Quote {
+        margin-top: 0px;
+		font-weight: lighter;
+		font-size: 30px;
+    }
 }
 .input-Quote{
 	width: 100%;
@@ -303,6 +421,24 @@
 	padding-bottom: 10px;
 	outline: none;
 	border: 1px solid #EEEEEE;
+}
+@media only screen and (max-width: 800px) {
+	.input-Quote {
+        width: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		outline: none;
+		border: 1px solid #EEEEEE;
+    }
+}
+@media only screen and (max-width: 400px) {
+	.input-Quote {
+        width: 90%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		outline: none;
+		border: 1px solid #EEEEEE;
+    }
 }
 .blend{
 	color: #EEEEEE;
@@ -315,6 +451,26 @@
 	width: 15%;
 	font-size: 18px;
 }
+@media only screen and (max-width: 800px) {
+	.submitBtn {
+        margin-top: 30px;
+		background-color: #1CC526;
+		height: 60px;
+		padding-top: 15px;
+		width: 30%;
+		font-size: 18px;
+    }
+}
+@media only screen and (max-width: 400px) {
+	.submitBtn {
+        margin-top: 30px;
+		background-color: #1CC526;
+		height: 60px;
+		padding-top: 15px;
+		width: 65%;
+		font-size: 18px;
+    }
+}
 .submitBtn:hover{
 	margin-top: 30px;
 	background-color: #36e242;
@@ -323,7 +479,26 @@
 	width: 15%;
 	font-size: 18px;
 }
-
+@media only screen and (max-width: 800px) {
+	.submitBtn:hover {
+        margin-top: 30px;
+		background-color: #36e242;
+		height: 60px;
+		padding-top: 15px;
+		width: 30%;
+		font-size: 18px;
+    }
+}
+@media only screen and (max-width: 400px) {
+	.submitBtn:hover {
+        margin-top: 30px;
+		background-color: #36e242;
+		height: 60px;
+		padding-top: 15px;
+		width: 65%;
+		font-size: 18px;
+	}
+}
 /*FOOTER*/
 
 #footer-Bottom{
