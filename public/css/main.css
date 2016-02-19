@@ -512,6 +512,13 @@
 	font-weight: bold;
 	font-size: 20px;
 }
+@media only screen and (max-width: 800px) {
+	.header-Footer-navOptions {
+        color: #fff;
+		font-weight: bold;
+		font-size: 30px;
+    }
+}
 .header-Footer-navOptions-left{
 	color: #f2f2f2;
 	font-weight: bold;
@@ -524,10 +531,23 @@
 	color: #EEEEEE;
 	font-size: 20px;
 }
+@media only screen and (max-width: 800px) {
+	.navoption-Footer {
+        color: #EEEEEE;
+		font-size: 25px;
+    }
+}
 .navoption-social-Footer{
 	color: #EEEEEE;
 	font-size: 20px;
 	cursor: pointer;
+}
+@media only screen and (max-width: 800px) {
+	.navoption-social-Footer {
+        color: #EEEEEE;
+		font-size: 25px;
+		cursor: pointer;
+    }
 }
 .navoption-social-Footer:hover{
 	color: #158FEF;
@@ -539,6 +559,12 @@
 }
 .copyright{
 	color: #a6a6a6;
+}
+@media only screen and (max-width: 800px) {
+	.copyright {
+        color: #a6a6a6;
+        font-size: 20px;
+    }
 }
 .blend-Footer{
 	color: #262d3a;
