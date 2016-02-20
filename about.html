@@ -25,7 +25,7 @@
         <li><a ui-sref="Services">Services</a></li>
         <li><a ui-sref="Portfolio">Portfolio</a></li>
         <li><a ui-sref="About">About</a></li>
-        <li><a ng-click="goToQuote()">Quote</a></li>
+        <li><a ng-click="openMdl4()">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -60,10 +60,20 @@
 <div id="modal4" class="modal">
         <div class="modal-content">
             <h4><i class="fa fa-envelope-o"></i> Message</h4>
-            <input placeholder="EMAIL (I.E YOU@GMAIL.COM)..." class="input-Modal"/>
-            <textarea placeholder="MESSAGE..." class="textarea-Modal"></textarea>
+            <input 
+                ng-model="emailModal" 
+                placeholder="EMAIL (I.E YOU@GMAIL.COM)..." 
+                class="input-Modal"/>
+            <textarea 
+                ng-model="messageModal" 
+                placeholder="MESSAGE..." 
+                class="textarea-Modal">
+            </textarea>
             <div class="center">
-              <a class="waves-effect waves-light btn z-depth-0 btn-Modal">SEND</a>
+              <a 
+                ng-click="contactModal()" 
+                class="waves-effect waves-light btn z-depth-0 btn-Modal">SEND
+            </a>
             </div>
         </div>
     </div>

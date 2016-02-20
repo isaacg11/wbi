@@ -1,4 +1,4 @@
- Stamplay.init('rocketbit');
+ Stamplay.init('sbisaac');
 
  (function() {
   'use strict';
@@ -8,6 +8,7 @@
 
   function homeCtrl(homeFactory, $state, $http, $scope, $stamplay, $location, $anchorScroll, duParallax){
 
+  //INITIALIZE SIDENAV
     jQuery(".button-collapse").sideNav();
 
   //ON STATE CHANGE, SCROLL TO TOP
@@ -53,7 +54,7 @@
     ];
     Materialize.scrollFire(options);
   
-  //SIGNUP
+  //SIGNUP USING HOME PG FORM
     $scope.contact = function(){
 
       var contactInfo = {
@@ -68,6 +69,21 @@
 
       Stamplay.Object('signup').save(contactInfo).then(function(){
         Materialize.toast('Success!', 3000);
+      });
+    };
+
+  //SIGNUP USING HOME PG FORM
+    $scope.contactModal = function(){
+
+      var contactInfo = { 
+        email: $scope.emailModal,
+        text: $scope.messageModal 
+      };
+
+      console.log(contactInfo);
+
+      Stamplay.Object('message').save(contactInfo).then(function(){
+        window.location.reload(true);
       });
     };
 

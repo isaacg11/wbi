@@ -1,6 +1,6 @@
 {
-  "appId": "rocketbit",
-  "apiKey": "68d9cd761db16fbc40620c414aa83ac4b0f72ad177ead3a2bbb1043d11dd6f26",
+  "appId": "sbisaac",
+  "apiKey": "35f71aae77203dff15435ad401c771ad0b839ffc1d0c2eb51235ef962074ef77",
   "public": "./",
   "ignore": [
     "stamplay.json",
