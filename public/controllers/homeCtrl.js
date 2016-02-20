@@ -30,11 +30,22 @@
         });
     });
 
-  //PAGE SCROLL
-  	$scope.goToQuote = function() {
-      $location.hash('quote');
-      $anchorScroll();
-  	};
+  //INITIALIZE MODAL
+    $scope.openMdl1 = function(){
+      jQuery('#modal1').openModal();
+    };
+
+    $scope.openMdl2 = function(){
+      jQuery('#modal2').openModal();
+    };
+
+    $scope.openMdl3 = function(){
+      jQuery('#modal3').openModal();
+    };
+
+    $scope.openMdl4 = function(){
+      jQuery('#modal4').openModal();
+    };
 
   //FADE IN IMAGES
     var options = [

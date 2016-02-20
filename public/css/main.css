@@ -1,6 +1,39 @@
 
 /*GLOBALS*/
-
+.modal{
+	width: 35%;
+	background-color: #EEEEEE;
+}
+.input-Modal{
+	margin-bottom: 20px;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	outline: none;
+	border: 1px solid #EEEEEE;
+}
+.textarea-Modal{
+	padding-bottom: 100px;
+	border: 1px solid #EEEEEE;
+	background-color: #fff;
+	outline: none;
+}
+.btn-Modal{
+	margin-top: 10px;
+	background-color: #1CC526;
+	height: 50px;
+	padding-top: 8px;
+	width: 30%;
+	font-size: 15px;
+}
+.btn-Modal:hover{
+	margin-top: 10px;
+	background-color: #36e242;
+	height: 50px;
+	padding-top: 8px;
+	width: 30%;
+	font-size: 15px;
+}
 /*NAVBAR*/
 
 .section-Navbar{
