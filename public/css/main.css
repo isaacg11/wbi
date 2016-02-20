@@ -1,8 +1,50 @@
 
-/*GLOBALS*/
+/*NAVBAR*/
+
+.section-Navbar{
+	background-color: #3a1d62;
+	max-width: 100vw !important;
+}
+.brand-logo{
+	margin-left: 20px;
+}
+@media only screen and (max-width: 800px) {
+	.brand-logo{
+	margin-left: 0px;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.brand-logo{
+	margin-left: 0px;
+	font-size: 25px !important; 
+	}
+}
+.section-navoption-Navbar:hover{
+	background-color: #3a1d62;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.icon-Navbar{
+	margin-top: 1px;
+	margin-left: 20px;
+}
+
+/*MODAL*/
 .modal{
 	width: 35%;
 	background-color: #EEEEEE;
+}
+@media only screen and (max-width: 800px) {
+	.modal {
+        width: 75%;
+		background-color: #EEEEEE;
+    }
+}
+@media only screen and (max-width: 400px) {
+	.modal {
+        width: 90%;
+		background-color: #EEEEEE;
+    }
 }
 .input-Modal{
 	margin-bottom: 20px;
@@ -11,12 +53,32 @@
 	padding-bottom: 5px;
 	outline: none;
 	border: 1px solid #EEEEEE;
+	font-size: 20px;
+}
+@media only screen and (max-width: 800px) {
+	.input-Modal {
+       	margin-bottom: 20px;
+		width: 100%;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		outline: none;
+		border: 1px solid #EEEEEE;
+    }
 }
 .textarea-Modal{
 	padding-bottom: 100px;
 	border: 1px solid #EEEEEE;
 	background-color: #fff;
 	outline: none;
+	font-size: 20px;
+}
+@media only screen and (max-width: 800px) {
+	.textarea-Modal {
+       	padding-bottom: 150px;
+		border: 1px solid #EEEEEE;
+		background-color: #fff;
+		outline: none;
+    }
 }
 .btn-Modal{
 	margin-top: 10px;
@@ -33,24 +95,6 @@
 	padding-top: 8px;
 	width: 30%;
 	font-size: 15px;
-}
-/*NAVBAR*/
-
-.section-Navbar{
-	background-color: #3a1d62;
-	max-width: 100vw !important;
-}
-.brand-logo{
-	margin-left: 20px;
-}
-.section-navoption-Navbar:hover{
-	background-color: #3a1d62;
-	text-decoration: underline;
-	cursor: pointer;
-}
-.icon-Navbar{
-	margin-top: 1px;
-	margin-left: 20px;
 }
 /*LANDING SECTION*/
 .typed-cursor{
@@ -112,7 +156,7 @@
 	.header {
         margin-top: 15px;
 		margin-bottom: 0px;
-		font-size: 50px;
+		font-size: 30px;
 		font-weight: bold;
 		color:  #fff;
 		line-height: 1;
@@ -137,7 +181,7 @@
 @media only screen and (max-width: 800px) {
 	.description {
         margin-top: 10px;
-		font-size: 35px;
+		font-size: 20px;
 		font-weight: lighter;
 		color: #fff;
     }
@@ -264,7 +308,7 @@
         margin-top: 30px;
 		margin-bottom: 0px;
 		font-weight: lighter;
-		font-size: 40px;
+		font-size: 30px;
     }
 }
 @media only screen and (max-width: 400px) {
@@ -286,7 +330,7 @@
         margin-top: 10px;
 		margin-bottom: 0px;
 		font-weight: lighter;
-		font-size: 30px;
+		font-size: 20px;
     }
 }
 @media only screen and (max-width: 400px) {
@@ -426,7 +470,7 @@
 	.header-Quote {
         margin-bottom: 0px;
 		font-weight: lighter;
-		font-size: 40px;
+		font-size: 30px;
     }
 }
 @media only screen and (max-width: 400px) {
@@ -441,25 +485,19 @@
 	font-weight: lighter;
 	font-size: 20px;
 }
-@media only screen and (max-width: 800px) {
-	.subheader-Quote {
-        margin-top: 0px;
-		font-weight: lighter;
-		font-size: 30px;
-    }
-}
 .input-Quote{
 	width: 100%;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	outline: none;
 	border: 1px solid #EEEEEE;
+	font-size: 20px;
 }
 @media only screen and (max-width: 800px) {
 	.input-Quote {
         width: 100%;
-		padding-top: 20px;
-		padding-bottom: 20px;
+		padding-top: 15px;
+		padding-bottom: 15px;
 		outline: none;
 		border: 1px solid #EEEEEE;
     }
@@ -567,7 +605,7 @@
 @media only screen and (max-width: 800px) {
 	.navoption-Footer {
         color: #EEEEEE;
-		font-size: 25px;
+		font-size: 20px;
     }
 }
 .navoption-social-Footer{
@@ -578,7 +616,7 @@
 @media only screen and (max-width: 800px) {
 	.navoption-social-Footer {
         color: #EEEEEE;
-		font-size: 25px;
+		font-size: 20px;
 		cursor: pointer;
     }
 }
@@ -597,6 +635,12 @@
 	.copyright {
         color: #a6a6a6;
         font-size: 20px;
+    }
+}
+@media only screen and (max-width: 400px) {
+	.copyright {
+        color: #a6a6a6;
+        font-size: 15px;
     }
 }
 .blend-Footer{

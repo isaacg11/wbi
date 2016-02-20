@@ -13,12 +13,25 @@
 .section-parent-Landing-ServicesPg{
 	padding-left: 0px !important;
 	padding-right: 0px !important;
-
 }
 .section-Landing-ServicesPg{
 	padding-top: 90px;
 	background: linear-gradient(to bottom right, #824eca, #2e174f);
 	height: 300px;
+}
+@media only screen and (max-width: 800px) {
+	.section-Landing-ServicesPg{
+	padding-top: 60px;
+	background: linear-gradient(to bottom right, #824eca, #2e174f);
+	height: 225px;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.section-Landing-ServicesPg{
+	padding-top: 30px;
+	background: linear-gradient(to bottom right, #824eca, #2e174f);
+	height: 175px;
+	}
 }
 .header-Landing-ServicesPg{
 	margin-top: 0px;
@@ -26,6 +39,15 @@
 	color: #fff;
 	font-size: 80px;
 	font-weight: lighter;
+}
+@media only screen and (max-width: 800px) {
+	.header-Landing-ServicesPg{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #fff;
+	font-size: 60px;
+	font-weight: lighter;
+	}
 }
 .icon-Landing-ServicesPg{
 	color: #fff;
@@ -76,10 +98,25 @@
 	padding-bottom: 50px;
 	padding-top: 50px;
 }
+@media only screen and (max-width: 800px) {
+	.section-Services-ServicesPg{
+	margin-bottom: 0px;
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	}
+}
 .section-resume-Services-ServicesPg{
 	margin-bottom: 0px;
 	padding-bottom: 50px;
 	padding-top: 50px;
+}
+@media only screen and (max-width: 800px) {
+	.section-resume-Services-ServicesPg{
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	}
 }
 .header-Services-ServicesPg{
 	margin-bottom: 0px;
@@ -87,12 +124,29 @@
 	font-size: 40px;
 	font-weight: lighter;
 }
+@media only screen and (max-width: 800px) {
+	.header-Services-ServicesPg {
+        margin-bottom: 0px;
+		margin-top: 0px;
+		font-size: 30px;
+		font-weight: lighter;
+    }
+}
 .description-Services-ServicesPg{
 	margin-top: 10px;
 	margin-bottom: 0px;
 	font-size: 30px;
 	font-weight: lighter;
 	color: #999999;
+}
+@media only screen and (max-width: 800px) {
+	.description-Services-ServicesPg{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-size: 20px;
+	font-weight: lighter;
+	color: #999999;
+	}
 }
 .section-notOffered-Services-ServicesPg{
 	margin-bottom: 0px;

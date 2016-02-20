@@ -14,10 +14,6 @@
   //ON STATE CHANGE, SCROLL TO TOP
     document.body.scrollTop = document.documentElement.scrollTop = 0;
 
-    jQuery(document).ready(function(){
-      jQuery('.materialboxed').materialbox();
-    });
-
   //TYPED.JS
     jQuery(function(){
         jQuery(".element").typed({
