@@ -1,4 +1,4 @@
- Stamplay.init('sbisaac');
+ Stamplay.init('softwarebyisaac');
 
  (function() {
   'use strict';
@@ -50,7 +50,7 @@
     ];
     Materialize.scrollFire(options);
   
-  //SIGNUP USING HOME PG FORM
+  //SIGNUP 
     $scope.contact = function(){
 
       var contactInfo = {
@@ -68,7 +68,7 @@
       });
     };
 
-  //SIGNUP USING HOME PG FORM
+  //MESSAGE 
     $scope.contactModal = function(){
 
       var contactInfo = { 
