@@ -8,6 +8,9 @@
 
   function homeCtrl(homeFactory, $state, $http, $scope, $stamplay, $location, $anchorScroll, duParallax){
 
+  //GLOBALS
+    
+
   //INITIALIZE SIDENAV
     jQuery(".button-collapse").sideNav();
 
@@ -52,25 +55,32 @@
   
   //SIGNUP 
     $scope.contact = function(){
+      var name = $scope.name;
+      var phone = $scope.phone;
+      var email = $scope.email;
 
-      var contactInfo = {
-        name: $scope.name,
-        phone: $scope.phone, 
-        email: $scope.email
-      };
+      if(email === undefined){
+        Materialize.toast('Error, Please Enter Email.', 4000);
+      }
+      else{
+        var contactInfo = {
+          name: $scope.name,
+          phone: $scope.phone, 
+          email: $scope.email
+        };
 
-      $scope.name = "";
-      $scope.phone = "";
-      $scope.email = "";
+        $scope.name = "";
+        $scope.phone = "";
+        $scope.email = "";
 
-      Stamplay.Object('signup').save(contactInfo).then(function(){
-        Materialize.toast('Success!', 3000);
+        Stamplay.Object('signup').save(contactInfo).then(function(){
+          Materialize.toast('Success! Check Your Email.', 4000);
       });
+      }   
     };
 
   //MESSAGE 
     $scope.contactModal = function(){
-
       var contactInfo = { 
         email: $scope.emailModal,
         text: $scope.messageModal 
